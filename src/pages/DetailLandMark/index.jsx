@@ -19,7 +19,7 @@ import Gallery from './Gallery/Gallery';
 import SliderImage from './Gallery/SliderImage';
 
 import { useDispatch, useSelector } from 'react-redux';
-import { getLandmarkById } from '../../api/LandMarkAPI.js';
+import { getLandmarkById } from '../../api/LandMarkAPI';
 import { serverPublic } from '../../utils';
 import { Popover } from 'antd';
 import { logOut } from '../../actions/AuthAction';
