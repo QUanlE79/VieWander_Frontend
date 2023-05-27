@@ -16,7 +16,7 @@ const SliderImage = ({ onChangeZoom = f => f, imagesData }) => {
                 </div>
                 <div className="flex gap-3">
                     {imagesData.map((n, i) => <div key={i} onClick={() => setIndex(i)} className={`cursor-pointer ${i == index ? 'opacity-100' : 'opacity-30'}`}>
-                        <img className="w-[100px] h-[80px]" src={`http://127.0.0.1:6789/public/images/landmarks/${imagesData[i]}`}></img>
+                        <img className="w-[100px] h-[80px]" src={`https://vie-wander-be.herokuapp.com/public/images/landmarks/${imagesData[i]}`}></img>
                     </div>)}
                 </div>
             </div>
