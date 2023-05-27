@@ -7,7 +7,7 @@ import { GeocoderAutocomplete } from '@geoapify/geocoder-autocomplete';
 import { postProvince } from '../../api/ProvinceAPI';
 import axios from 'axios';
 import { getProvince } from '../../api/ProvinceAPI';
-import { postLandmark } from '../../api/LandMarkAPI.js';
+import { postLandmark } from '../../api/LandMarkAPI.jsx';
 const geoapify = "2e8f62d864414a2780fdcbcf30589685";
 const EditLandMark = () => {
     const [form] = Form.useForm()
