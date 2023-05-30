@@ -10,7 +10,7 @@ const Gallery = ({ onZoom = f => f, imagesData }) => {
                         <img src={`https://vie-wander-be.herokuapp.com/public/images/landmarks/${n}`} className={`w-full h-full object-cover rounded-md cursor-pointer ${i == 5 ? `opacity-40` : ""}`}></img>
                     </div> : "")
                 }
-                <p className="absolute bottom-6 right-10 text-[20px] leading-[28px] text-[#141716] font-semibold ">+{imagesData.length - 6 > 0 ? imagesData.length - 6 : ''}</p>
+                <p className="absolute bottom-6 right-10 text-[20px] leading-[28px] text-[#141716] font-semibold ">{imagesData.length - 6 > 0 ? '+' + imagesData.length - 6 : ''}</p>
             </div>
         </>
     );
