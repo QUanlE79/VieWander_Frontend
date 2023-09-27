@@ -62,7 +62,7 @@ const Detail = ({ position = "Long An" }) => {
         }
         fetchData()
     }, [detail, tabActive])
-    const imageBanner = detail ? `https://vie-wander-be.herokuapp.com/public/images/provinces/${detail?.images[0]}` : '/images/banner.png'
+    const imageBanner = detail ? `https://vie-wander-backend.onrender.com/public/images/provinces/${detail?.images[0]}` : '/images/banner.png'
 
     return (
         // container
